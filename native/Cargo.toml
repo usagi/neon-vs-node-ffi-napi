@@ -1,0 +1,19 @@
+[package]
+name = "neon-vs-node-ffi-napi"
+version = "0.0.0"
+authors = ["Usagi Ito <the@usagi.network>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "neon_vs_node_ffi_napi"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.0"
+
+[dependencies]
+neon = "0.4.0"
+backend = { path = "../workspace.rs/backend" }

@@ -1,0 +1,16 @@
+﻿# https://zed0.co.uk/clang-format-configurator/
+
+---
+
+BasedOnStyle: Microsoft
+ConstructorInitializerIndentWidth: '1'
+ContinuationIndentWidth: '1'
+IndentWidth: '1'
+JavaScriptQuotes: Single
+Language: JavaScript
+MaxEmptyLinesToKeep: '1'
+SpacesBeforeTrailingComments: '1'
+TabWidth: '1'
+UseTab: Never
+
+...

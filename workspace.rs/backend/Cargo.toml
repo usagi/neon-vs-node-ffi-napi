@@ -1,0 +1,11 @@
+[package]
+name = "backend"
+version = "0.0.0"
+authors = ["Usagi Ito <the@usagi.network>"]
+edition = "2018"
+
+[lib]
+crate-type = [ "rlib", "cdylib" ]
+
+[dependencies]
+rand = "0.7.3"
